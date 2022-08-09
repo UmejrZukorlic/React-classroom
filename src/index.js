@@ -1,12 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ContactList from './components/functions/ContactList';
+import ContextConsumer from './components/functions/ContextConsumer';
+import SimpleContext from './components/functions/SimpleContext';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ContactList/>
+    <SimpleContext>
+      <ContextConsumer name="jedan">
+        <ContextConsumer name="dva">
+          <ContextConsumer name="tri">
+
+          </ContextConsumer>
+        </ContextConsumer>
+      </ContextConsumer>
+    </SimpleContext>
   </React.StrictMode>
 );
 
