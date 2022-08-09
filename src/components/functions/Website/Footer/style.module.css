@@ -1,0 +1,19 @@
+.footer{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+.icon_section{
+    justify-self: flex-end;
+}
+.footer_left{
+    display: flex;
+    align-items: center;
+}

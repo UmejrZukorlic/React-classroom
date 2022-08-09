@@ -1,0 +1,25 @@
+.card{
+    width: auto;
+    min-height: 200px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.info{
+    background-color: green;
+    color: black;
+}
+.danger{
+    background-color: rgb(255, 0, 0, 0.19);
+    color: red;
+}
+.warning{
+    background-color: rgb(255, 238, 0, 0.26);
+    color: orange;
+}
