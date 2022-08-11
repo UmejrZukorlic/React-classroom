@@ -1,21 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import ContextConsumer from './components/functions/ContextConsumer';
-import SimpleContext from './components/functions/SimpleContext';
+import Memorise from './components/functions/Memorise';
+// import Ref from './components/functions/Ref';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SimpleContext>
-      <ContextConsumer name="jedan">
-        <ContextConsumer name="dva">
-          <ContextConsumer name="tri">
-
-          </ContextConsumer>
-        </ContextConsumer>
-      </ContextConsumer>
-    </SimpleContext>
+  {/* <Ref/>     */}
+    <Memorise/>
   </React.StrictMode>
 );
 
