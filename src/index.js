@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Memorise from './components/functions/Memorise';
-// import Ref from './components/functions/Ref';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  {/* <Ref/>     */}
     <Memorise/>
   </React.StrictMode>
 );
