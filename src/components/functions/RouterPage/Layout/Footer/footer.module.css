@@ -1,0 +1,12 @@
+.footer{
+    height: 80px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footeritem{
+    text-decoration: none;
+    color: blue;
+    padding: 0 10px;
+}
