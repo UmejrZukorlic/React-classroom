@@ -1,0 +1,14 @@
+.nav{
+    height: 80px;
+    background-color: yellow;
+
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navitem{
+    text-decoration: none;
+    color: blue;
+    padding: 0 10px;
+}
