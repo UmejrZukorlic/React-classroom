@@ -8,8 +8,8 @@ function Footer() {
     <div className={style.footer}>
         <Link className={style.footeritem} to="/">Home</Link>
         <Link className={style.footeritem} to="/team">Team</Link>
-        <Link className={style.footeritem} to="/contact">Contact</Link>
         <Link className={style.footeritem} to="/about">About</Link>
+        <Link className={style.footeritem} to="/contact">Contact</Link>
         <p>:)</p>
     </div>
   )

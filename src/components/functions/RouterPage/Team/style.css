@@ -1,0 +1,39 @@
+.teamSection{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.teamDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teamProfile{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.worker{
+    background-color: rgb(225, 230, 235);
+    border-radius: 10px;
+    height: 20vh;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding-right: 10px;
+}
+
+img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 40%;
+    height: 100%;
+}
+.workerAbout{
+    height: 100%;
+    padding-bottom: 15px;
+}

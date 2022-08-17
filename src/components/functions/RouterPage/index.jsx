@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-    BrowserRouter,
     Routes,
     Route,
 } from "react-router-dom";
@@ -15,8 +14,8 @@ function RouterPage() {
         <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/team' element={<Team/>}/>
-        <Route path='/contact' element={<Cointact/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/contact' element={<Cointact/>}/>
         <Route path='*' element={<p>404</p>}/>
       </Routes>
     </div>
