@@ -1,0 +1,54 @@
+.contactHeader{
+    text-align: center;
+}
+.Inputs{
+    width: 70%;
+    margin: auto;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 0;
+
+}
+.nameAndEmail{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nameAndEmail div{
+    width: 40%;
+}
+.nameAndEmail input{
+    width: 100%;
+    height: 30px;
+}
+.nameAndEmail div label, .message label{
+    display: block;
+}
+
+.message{
+    width: 100%;
+}
+.message input{
+    width: 100%;
+    height: 30vh;
+}
+input{
+    border: 1px black solid;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+    border: 2px blue solid;
+}
+.Inputs button{
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    border: 0 black solid;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+}
