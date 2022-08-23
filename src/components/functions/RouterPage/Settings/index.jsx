@@ -4,6 +4,7 @@ import Layout from '../Layout'
 import Tabs from './Tabs'
 
 const Settings = () => {
+    
   return (
     <Layout>
         <Tabs/>

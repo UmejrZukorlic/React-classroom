@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink, useMatch } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 const Tabs = () => {
   return (
