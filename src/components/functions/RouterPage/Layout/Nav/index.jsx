@@ -9,6 +9,7 @@ function Nav() {
         <Link className={style.navitem} to="/team">Team</Link>
         <Link className={style.navitem} to="/about">About</Link>
         <Link className={style.navitem} to="/contact">Contact</Link>
+        <Link className={style.navitem} to="/users">Users</Link>
     </div>
     
   )
